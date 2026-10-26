@@ -1,0 +1,93 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Math Test</title>
+</head>
+
+<body>
+
+    <!-- Start of Math Test -->
+
+    <h1>Online Math Test</h1>
+    <p>Answer the questions below.</p>
+
+    <form>
+
+        <!-- Student Name -->
+        <label for="studentName">Enter Your Name:</label>
+        <input type="text" id="studentName" name="studentName" required>
+
+        <hr>
+
+        <!-- Multiple Choice Question 1 -->
+        <h3>1. What is 5 + 3?</h3>
+
+        <input type="radio" id="q1a" name="q1" value="6">
+        <label for="q1a">6</label><br>
+
+        <input type="radio" id="q1b" name="q1" value="8">
+        <label for="q1b">8</label><br>
+
+        <input type="radio" id="q1c" name="q1" value="10">
+        <label for="q1c">10</label><br>
+
+        <!-- Multiple Choice Question 2 -->
+        <h3>2. What is 12 - 4?</h3>
+
+        <input type="radio" id="q2a" name="q2" value="6">
+        <label for="q2a">6</label><br>
+
+        <input type="radio" id="q2b" name="q2" value="8">
+        <label for="q2b">8</label><br>
+
+        <input type="radio" id="q2c" name="q2" value="9">
+        <label for="q2c">9</label><br>
+
+        <!-- Multiple Choice Question 3 -->
+        <h3>3. What is 4 × 3?</h3>
+
+        <input type="radio" id="q3a" name="q3" value="7">
+        <label for="q3a">7</label><br>
+
+        <input type="radio" id="q3b" name="q3" value="12">
+        <label for="q3b">12</label><br>
+
+        <input type="radio" id="q3c" name="q3" value="15">
+        <label for="q3c">15</label><br>
+
+        <hr>
+
+        <!-- Word Problem -->
+        <h3>4. Word Problem</h3>
+
+        <p>Sarah has 10 apples. She gives 3 apples to her friend.
+        How many apples does Sarah have left?</p>
+
+        <label for="wordAnswer">Type your answer below:</label><br>
+
+        <textarea id="wordAnswer" name="wordAnswer"
+                  rows="4" cols="40"></textarea>
+
+        <hr>
+
+        <!-- Math Symbols Using HTML Entities -->
+        <h3>Math Symbols</h3>
+
+        <p>Less than: &lt;</p>
+        <p>Greater than: &gt;</p>
+        <p>Plus or minus: &plusmn;</p>
+
+        <!-- Submit Button -->
+        <br>
+        <button type="submit">Submit Test</button>
+
+    </form>
+
+    <!-- End of Math Test -->
+
+</body>
+</html>
+```
